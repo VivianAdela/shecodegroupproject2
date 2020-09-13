@@ -8,6 +8,9 @@
 body{
     background: #fff;
 }
+h1{
+   text-align: center;
+}
 .bg-pink{
     background: #e43596;
 }
@@ -17,12 +20,16 @@ body{
  background-position: center;
   height:100vh; 
   padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-#vacation .button{
+.button{
     font-size: 18px;
     text-decoration: none;
     color: #fff;
-  background-color: #e43596;
+    background-color: #e43596;
     padding: 10px 20px;
     margin-top: 20px;
     
@@ -47,4 +54,27 @@ body{
 
 .content img{
     margin-bottom: 40px;
+}
+
+.sci-icons{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-sci{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid #fff;
+}
+
+.s-sci a{
+    color: #fff;
 }
